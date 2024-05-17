@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIData/Uss.uss?fileID=7433441132597879392&amp;guid=f4610f1363340f34ea05afa15496d0ca&amp;type=3#Uss" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(57, 57, 57, 0.78);">
+        <ui:VisualElement name="list" class="list" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: auto;">
+            <ui:VisualElement name="element" class="element" style="flex-grow: 1; height: initial;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="list" class="list" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: auto;">
+            <ui:VisualElement name="element" class="element" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="list" class="list" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; height: initial;">
+            <ui:VisualElement name="element" class="element" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

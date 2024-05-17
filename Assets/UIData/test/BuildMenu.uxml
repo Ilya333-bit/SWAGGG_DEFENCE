@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui xmlns="UnityEngine.UIElements">
+    <!-- Контейнер для счетчиков -->
+    <Box class="hud-container">
+        <!-- Счетчик убийств -->
+        <Label class="counter" name="killCounter" text="Kill: 0" />
+        <!-- Счетчик монет -->
+        <Label class="counter" name="coinCounter" text="Coins: 0" />
+    </Box>
+</ui>
