@@ -2,7 +2,7 @@ using System;
 
 public class Economy
 {
-    private static int _coins;
+    private static int _coins = 100;
     private static int _murders;
     private static int _spentCoins;
     

@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    [SerializeField] private float _damage;
-    [SerializeField] private float _reloadTime;
-    [SerializeField] private float _impactForce;
-    [SerializeField] private string _enemyTag = "Enemy";
-    [SerializeField] private Transform _pointShellTransform;
-    [SerializeField] private Transform _rotaterTransform;
-    [SerializeField] private Transform _cannonTransform;
-    [SerializeField] private GameObject _shellObject;
+    [SerializeField] protected float _damage;
+    [SerializeField] protected float _reloadTime;
+    [SerializeField] protected float _impactForce;
+    [SerializeField] protected string _enemyTag = "Enemy";
+    [SerializeField] protected Transform _pointShellTransform;
+    [SerializeField] protected Transform _rotaterTransform;
+    [SerializeField] protected Transform _cannonTransform;
+    [SerializeField] protected GameObject _shellObject;
     private bool _isAttacking = false;
 
     private void OnTriggerStay(Collider other)
