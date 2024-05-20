@@ -32,6 +32,10 @@ public class Shell : MonoBehaviour
 
     private void FollowTarget()
     {
+        if (_enemyObject is null)
+        {
+            Destroy(gameObject);
+        }
         Vector3 targetPosition = _enemyObject.transform.position;
         Vector3 targetDirection = (targetPosition - transform.position).normalized;
         _rigidbody.velocity = targetDirection * _impactForce;

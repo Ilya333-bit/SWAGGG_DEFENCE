@@ -5,6 +5,7 @@ public class PathPoints: MonoBehaviour
 {
     private List<Vector3> _pathPoints = new List<Vector3>();
     [SerializeField] private string _pathPointName = "path end";
+    [SerializeField] private Transform _vector3MainTower;
 
     private void Start()
     {
@@ -18,7 +19,7 @@ public class PathPoints: MonoBehaviour
 
     public Vector3 GetPathPoint(int index)
     {
-        if (index >= _pathPoints.Count) return _pathPoints[-1];
+        if (index >= _pathPoints.Count) return _vector3MainTower.position;
         return _pathPoints[index];
     }
 

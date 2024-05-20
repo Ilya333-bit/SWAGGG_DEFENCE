@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - PlaceForBuild
+  - MainTower
+  - Undefined
+  - EnemyShell
   layers:
   - Default
   - TransparentFX
