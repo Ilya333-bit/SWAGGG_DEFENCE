@@ -9,6 +9,7 @@ public class PathPoints: MonoBehaviour
 
     private void Start()
     {
+        _vector3MainTower = FindObjectOfType<MainTower>().GetComponent<Transform>();
         for (int i = 0; i < 25; i++)
         {   
             _pathPoints.Add(transform.GetChild(i).position);

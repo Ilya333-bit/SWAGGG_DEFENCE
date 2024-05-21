@@ -9,7 +9,7 @@ public class EnemyMovement : Enemy
 
     private void Start()
     {
-        _pathPoints = _pathPointsObject.GetComponent<PathPoints>();
+        _pathPoints = FindObjectOfType<PathPoints>().GetComponent<PathPoints>();
     }
 
     private void Update()

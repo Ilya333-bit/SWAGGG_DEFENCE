@@ -40,6 +40,7 @@ public class EnemyAttack : MonoBehaviour
         spawnShellObject.GetComponent<EnemyShell>().ImpactForce = _impactForce;
         spawnShellObject.GetComponent<EnemyShell>().Vector3MainTower = _vector3MainTower;
         spawnShellObject.GetComponent<EnemyShell>().Damage = GetComponent<EnemyMovement>().Damage;
+        GetComponent<AudioEnemy>().Audio();
         _isReload = true;
         yield return new WaitForSeconds(_reloadTime);
         _isReload = false;
