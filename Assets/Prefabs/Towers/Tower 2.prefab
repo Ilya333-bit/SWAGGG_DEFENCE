@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _smokeEffect: {fileID: 78312532590044970}
-  _timeSmokeExist: 1.2
+  _timeSmokeExist: 0.2
 --- !u!1 &5230047600020334108
 GameObject:
   m_ObjectHideFlags: 0

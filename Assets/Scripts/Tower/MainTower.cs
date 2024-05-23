@@ -5,6 +5,7 @@ public class MainTower : MonoBehaviour
     [SerializeField] private float _health;
     [SerializeField] private string _enemyShellTag;
     [SerializeField] private GameObject _updateHudObject;
+    [SerializeField] private GameObject _loseMenu;
 
     private void Start()
     {
@@ -27,6 +28,7 @@ public class MainTower : MonoBehaviour
 
     private void DestroyMainTower()
     {
-        
+        Time.timeScale = 0f;
+        _loseMenu.SetActive(true);
     }
 }

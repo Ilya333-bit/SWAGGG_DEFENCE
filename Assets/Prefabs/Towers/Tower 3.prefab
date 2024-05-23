@@ -5567,4 +5567,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _smokeEffect: {fileID: 4260167023525098829}
-  _timeSmokeExist: 1.2
+  _timeSmokeExist: 0.2
