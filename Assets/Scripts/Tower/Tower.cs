@@ -74,5 +74,17 @@ public class Tower : MonoBehaviour
         shellComponent._enemyObject = enemy;
         shellComponent.Damage(_damage);
         shellComponent.ImpactForce(_impactForce);
+        Audio();
+        Effect();
+    }
+
+    private void Audio()
+    {
+        GetComponent<AudioTower>().Audio();
+    }
+
+    private void Effect()
+    {
+        StartCoroutine(GetComponent<TowerEffect>().StartEffect());
     }
 }

@@ -211,8 +211,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8292381701548227039}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.034694, y: -12.777372, z: 15.567868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.03469, y: -12.77737, z: 15.56787}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -238,7 +238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pathPointName: path end
-  _vector3MainTower: {fileID: 0}
+  _vector3MainTower: {fileID: 6025185677758448855, guid: 1d00991950c30c34abb2125cd4ae4b42,
+    type: 3}
 --- !u!1 &8822015906055789835
 GameObject:
   m_ObjectHideFlags: 0
